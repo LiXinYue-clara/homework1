@@ -1,0 +1,99 @@
+/*To set the background of the body*/
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: scroll;
+}
+
+/*设置背景自适应*/
+.web_bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+
+/*注释样式*/
+[title]{
+    cursor: help;
+    padding-bottom: 3px;
+    border-bottom: none;
+    text-emphasis: none; 
+  }
+
+/*header*/
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0em 50em 1em 4em;
+    padding: 0.8em;
+    width: 400px;
+    height: 80px;
+}
+
+/*链接样式*/
+a:link{
+    text-decoration: underline;
+    color: black;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: rgb(131, 185, 185);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(249, 253, 253);
+    background-color: grey;
+
+}
+
+/*button样式*/
+button{
+    background-color: rgba(246, 248, 248, 0);
+    width: 6.5em;
+    height: 6.5em;
+    padding: 0.2em 0.3em;
+    margin: 0.1em 0.5em;
+}
+
+/*目录样式directory*/
+.directory{
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*正文样式*/
+.message{
+    background-color: rgba(255, 255, 255, 0.863);
+    padding: 1em 4em 1em 2em;
+    margin: 3em 10em 3em 4em;
+    width: 500px;
+}
+
+/*各大块样式*/
+.part{
+    background-color: rgba(208, 210, 211, 0.5);
+    padding: 1em 1em;
+    margin: 0.5em 0.1em;
+}
+
+/*各小块样式*/
+.smallpart{
+    padding: 0.2em 0.3em;
+    margin: 0.1em 1em;
+}
